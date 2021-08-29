@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_petunjuk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <TextView
+        android:id="@+id/tvpetunjuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Panduan Menggunakan Aplikasi"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvptjsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvpetunjuk"
+        android:drawableRight="@drawable/ic_bell_help"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="1. Untuk menggunakan aplikasi, silahkan tekan tombol "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvptjdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjsatu"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="2. Masukkan PIN terlebih dahulu untuk mengkonfirmasi pengguna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvptjtiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjdua"
+        android:drawableEnd="@drawable/ic_bell_help"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="3. Setelah memasukkan PIN, akan muncul indikasi "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvptjempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjtiga"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="4. Alarm akan berbunyi ketika anda menggerakan smartphone. Letakkan smartphone anda dalam posisi diam "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvptjlima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjempat"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="5. Ketika Smartphone anda dicuri, alarm akan berbunyi keras dan akan mengirimkan lokasi ke aplikasi MySavior yang dapat anda akses melalui smartphone lainnya."
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvptjenam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjlima"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="6.Aplikasi ini akan mengirimkan lokasi setiap 15 menit untuk melacak perpindahan lokasi."
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvptjtujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjenam"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="7. Untuk mematikan alarm, anda harus memasukkan PIN kembali"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/perhatian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvptjtujuh"
+        android:drawableLeft="@drawable/ic_warning"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:background="@color/gradStop"
+        android:text="Pastikan anda menyalakan GPS dan koneksi internet, sehingga anda dapat melacak smartphone anda yang dapat dicuri sewaktu-waktu"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/perhatian"
+        android:src="@mipmap/stolen"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>

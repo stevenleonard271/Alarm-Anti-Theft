@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/grad_bg"/>
+
+    <item android:gravity="center" android:width="200dp" android:height="250dp">
+        <bitmap
+            android:gravity="fill_horizontal|fill_vertical"
+            android:src="@drawable/stolen"/>
+    </item>
+
+</layer-list>
